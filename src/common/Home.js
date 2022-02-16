@@ -2,32 +2,44 @@ import si from '../assets/si.png'
 import dictionary from '../assets/dictionary.png'
 import sniff from '../assets/sniff.png'
 import honey from '../assets/honey.png'
-// import banner from '../assets/banner.png'
+import dotsGroupV from '../assets/dotsGroupV.png'
+import dotsCyan from '../assets/dotsCyan.png'
+import dots from '../assets/dots.png'
+import chevron from '../assets/chevron.svg'
 
 function Home() {
 
   return (
     <>
       <div className="container-main">
+        <img src={dotsCyan} alt="bg-shape" className="img-fluid bg-shape-1"></img>
+        <img src={dotsGroupV} alt="bg-shape" className="img-fluid bg-shape-2"></img>
         <div className="container-title">
           <h1>esin yilmazbilek</h1>
-          <span className="arrow"></span>
-          {/* <img src={banner} className="esin"></img> */}
-          {/* <span className="title-word title-word-1">esin </span>
-          <span className="title-word title-word-2">yilmazbilek</span>  */}
         </div>
       </div>
 
-      <div className="gallery">
+      <section className="section">
+        <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 mx-auto text-center">
+              <h2>About Me</h2>
+              <p className="font-secondary paragraph-lg">After 7 years of experience working in design and management, I decided to future proof what I can offer and open a new path for myself. I extended my technical skills with a 3-month Software Engineering bootcamp at General Assembly.</p>
+              <p className="font-secondary paragraph-lg">I am inspired by achieving sustainable results with my creative thinking, problem solving, and programming skills. Whilst looking for my next workplace, I am polishing my coding skills with a side project. I am keen to build upon my knowledge and continue to learn as I grow in my next role.</p>
+              <p className="see-below">See my projects below</p>
+              <img src={chevron} className="chevron"/>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <div className="gallery">
         <div className="project">
           <img src={si} className="image"></img>
           <div className="text">
             <div className="textArea">
-              <p className="title">Space Invaders</p>
-              <p>My take on the classic 80&#39;s Space Invaders arcade game with Borg theme. This grid base single player game is my first dev project built with HTML, CSS, Vanilla JavaScript and GitHub.</p>
-              <p>Click here for details.</p>
-              <p>Click here to view the website.</p>
+              <a className="btn btn-light btn-sm" href="#!">view project</a>
             </div>
           </div>
         </div>
@@ -36,10 +48,7 @@ function Home() {
           <img src={dictionary} className="image"></img>
           <div className="text">
             <div className="textArea">
-              <p className="title">English Dictionary</p>
-              <p>An English Dictionary built with an external API, utilising HTML, CSS, JavaScript and React.</p>
-              <p>Click here for details.</p>
-              <p>Click here to view the website.</p>
+              <a className="btn btn-light btn-sm" href="#!">view project</a>
             </div>
           </div>
         </div>
@@ -48,10 +57,7 @@ function Home() {
           <img src={sniff} className="image"></img>
           <div className="text">
             <div className="textArea">
-              <p className="title">Sniff</p>
-              <p>A match making site for our furry friends. A full stack MERN app with CRUD functionality.</p>
-              <p>Click here for details.</p>
-              <p>Click here to view the website.</p>
+              <a className="btn btn-light btn-sm" href="#!">view project</a>
             </div>
           </div>
         </div>
@@ -60,10 +66,7 @@ function Home() {
           <img src={honey} className="image"></img>
           <div className="text">
             <div className="textArea">
-              <p className="title">Honey&#38;Thyme</p>
-              <p>A Pinterest clone app built for cocktails, utilising CSS (Bootstrap), React, Python, Django, Django REST Framework, and PostgreSQL.</p>
-              <p>Click here for details.</p>
-              <p>Click here to view the website.</p>
+              <a className="btn btn-light btn-sm" href="#!">view project</a>
             </div>
           </div>
         </div>
