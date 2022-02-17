@@ -96,49 +96,6 @@
 //   justify-content: flex-end;
 // }
 
-// .burger-toggle {
-//   display: none;
-//   @media only screen and (max-width: 600px){
-//     display: inline-flex;
-//   }
-// }
-
-// .burger-icon {
-//   color: white;
-//   margin-left: 70%;
-//   margin-top: -60px;
-// }
-
-// .side-nav-menu-container {
-//   width: 200px;
-//   background-color: white;
-//   height: 150px;
-//   position: fixed;
-//   z-index: 2;
-//   right: -100%;
-//   padding: 20px 30px;
-//   border-radius: 0 0 0 20px;
-//   margin-top: 200px;
-//   text-transform: uppercase;
-// }
-
-// .side-nav-menu-container.active {
-//   right: 0;
-//   transition: all 0.4s;
-// }
-
-
-// .li-buttons {
-//   list-style: none;
-//   font-size: 20px;
-//   font-family: 'Inter', sans-serif;
-// }
-
-// .li-hrefs {
-//   text-decoration: none;
-//   color: #E60023;
-// }
-
 // .nav-buttons {
 //   display:flex;
 //   justify-content: flex-end;
@@ -262,7 +219,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 2%; 
   width: 100%;
 }
 
@@ -333,4 +289,87 @@ h2 {
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.7; 
+}
+
+.hover-wrapper {
+  overflow: hidden;
+}
+.hover-wrapper img {
+  transition: 0.3s ease;
+  transform: scale(1);
+}
+.hover-wrapper:hover img {
+  transform: scale(1.1);
+}
+.hover-wrapper:hover .hover-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+
+.hover-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+//* DESIGN WORKS
+
+.title-section {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+h4 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  color: #41228e;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+h5 {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  color: #41228e;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.btn-xs {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #41228e;
+  color: white;
+}
+
+.btn-xs:hover {
+  cursor: pointer;
+  color: white;
+  background: lighten($color: #41228e, $amount: 10)
+}
+
+.last {
+  margin-top:24px;
 }
