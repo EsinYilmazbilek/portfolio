@@ -1,18 +1,27 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import Navbar from './common/Navbar'
-import Home from './common/Home'
+import Hero from './common/Hero'
+import About from './common/About'
+import Skills from './common/Skills'
+import Gallery from './common/Gallery'
+import Design from './common/Design'
+// import Experience from './common/Experience'
+import Footer from './common/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        {/* <Route path="/profile" element={<About />} />
-        <Route path="/register" element={<Projects />} />
-        <Route path="/login" element={<Contact />} /> */}
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Hero />
+        <About />
+        <Gallery />
+        <Design />
+        <Skills />
+        {/* <Experience /> */}
+      </BrowserRouter><Footer />
+    </>
   )
 }
 

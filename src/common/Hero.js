@@ -3,7 +3,7 @@ import dotsCyan from '../assets/dotsCyan.png'
 
 function Hero() {
   return (
-    <div className="container-main">
+    <div className="container-main" id="hero">
       <img src={dotsCyan} alt="bg-shape" className="img-fluid bg-shape-1"></img>
       <img src={dotsGroupV} alt="bg-shape" className="img-fluid bg-shape-2"></img>
       <div className="container-title">

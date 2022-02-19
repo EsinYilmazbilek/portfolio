@@ -6,7 +6,7 @@ import explore from '../assets/explore.png'
 function Design() {
   return (
 
-    <section className="section">
+    <section className="section" id="design">
       <img src={design} alt="bg-shape" className="img-fluid bg-shape-3"></img>
       <div className="title-section">
         <h4>Design Works</h4>

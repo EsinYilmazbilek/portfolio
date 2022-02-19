@@ -1,6 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 *{
@@ -11,30 +10,24 @@
 //* NAVBAR
 
 .navigation {
-  padding: 40px 130px;
   transition: 0.3s ease;
   display: inline-flex;
   flex-direction: row;
+  // justify-content: space-around;
   flex: 2;
   align-items: center;
-  margin-right: 50px;
-	height: 100px;
 	top: 0;
   background-color: #41228e;
   width: 100%;
+  padding: 15px 20px;
 }
+
 .navigation.nav-bg {
   background-color: #41228e;
-  padding: 15px 100px;
 }
-@media (max-width: 991px) {
-  .navigation.nav-bg {
-    padding: 15px 20px;
-  }
-}
+
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
     background: #41228e;
   }
 }
@@ -45,78 +38,22 @@
   padding: 15px;
 }
 
-.navbar .nav-item.active {
-  font-weight: bold;
+.navbar .nav-item .active {
+  font-weight: 700;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
 
-
-//* //////////
-
-// .nav {
-// 	display: inline-flex;
-//   flex-direction: row;
-// 	align-items: center;
-// 	height: 100px;
-// 	top: 0;
-//   background-color: #41228e;
-//   width: 100%;
-//   // box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-// }
-
-// .nav-toggle {
-//   @media only screen and (max-width: 600px){
-//     display: none;
-//   }
-// }
+.navbar-toggler {
+  margin-top: 0px;
+}
 
 .logo {
   margin: auto;
   height: 55px;
-  margin-left: 50px;
 }
-
-.logo:hover {
-  height:60px;
-  transition-duration: 300ms;
-}
-
-// .nav-title {
-//   margin-left: 20px;
-//   text-decoration: none;
-//   font-size: 20px;
-//   color: white;
-//   letter-spacing: 1px;
-//   font-family: 'Economica', sans-serif;
-//   text-transform: uppercase;
-//   align-items: center;
-//   justify-content: flex-end;
-// }
-
-// .nav-buttons {
-//   display:flex;
-//   justify-content: flex-end;
-//   align-items: center;
-//   flex: 2;
-//   margin-right: 50px;
-// }
-
-// .nav-button {
-//   text-decoration: none;
-//   font-size: 20px;
-//   color: white;
-//   letter-spacing: 1px;
-//   margin-left: 20px;
-//   font-family: 'Economica', sans-serif;
-//   text-transform: uppercase;
-// }
-
-// .nav-button:hover {
-//   color: gray;
-// }
 
 //* HOME PAGE
 
@@ -186,7 +123,7 @@ h2 {
   font-size: 25px;
   color: black;
   padding: 70px 0 20px 0;
-  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .font-secondary {
@@ -257,7 +194,6 @@ h2 {
 .btn {
   font-size: 15px;
   font-family: "Playfair Display", serif;
-  text-transform: capitalize;
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: 600;
@@ -326,6 +262,21 @@ h2 {
   left: 0;
   right: 0;
   text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.hover-title {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.hover-text {
+  margin: 10px 20px 15px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 
@@ -373,3 +324,111 @@ h5 {
 .last {
   margin-top:24px;
 }
+
+
+//* SKILLS
+
+.skills {
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.skills-title {
+  margin-top: 10px;
+  color: #41228e;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.icon {
+  height: 30px;
+  margin-top: 30px;
+}
+
+.mb-0 {
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+//* EXPERIENCE
+
+// .experience-area {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+//   align-content: center;
+// }
+
+// .experience {
+//   position: relative;
+//   z-index: 1;
+// }
+
+// .bg-shape-4 {
+//   position: absolute;
+// }
+
+
+//* FOOTER
+
+.footer-section {
+  padding-top: 100px;
+  background-color: #41228e;
+}
+
+.font-footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+h6 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:white;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+}
+
+.email:hover {
+  color: darken($color: white, $amount: 20)
+}
+
+.icon-linkedin {
+  height: 30px;
+  margin-right: 20px;
+  filter: invert(100%) sepia(1%) saturate(5547%) hue-rotate(206deg) brightness(115%) contrast(92%);
+}
+
+.icon-linkedin:hover {
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(112deg) brightness(88%) contrast(86%);
+}
+
+.icon-git {
+  height: 30px;
+  margin-top: 1px;
+  filter: invert(100%) sepia(1%) saturate(5547%) hue-rotate(206deg) brightness(115%) contrast(92%);
+}
+
+.icon-git:hover {
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(112deg) brightness(88%) contrast(86%);
+}
+
+.text-bottom {
+  font-size: 10px;
+  color: gray;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
