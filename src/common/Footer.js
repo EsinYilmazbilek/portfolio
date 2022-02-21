@@ -1,12 +1,17 @@
 import github1 from '../assets/icons/github1.svg'
 import linkedin from '../assets/icons/linkedin.svg'
+import dotsGroupCyan from '../assets/dotsGroupCyan.png'
+import dotsOrange from '../assets/dotsOrange.png'
 
 
 function Footer() {
   return (
     <footer className="bg-dark footer-section" id="contact">
+      <img src={dotsOrange} alt="bg-shape" className="img-fluid bg-shape-bottom-1"></img>
+      <img src={dotsGroupCyan} alt="bg-shape" className="img-fluid bg-shape-bottom-2"></img>
+      {/* <img src={dotsGroupCyan} alt="bg-shape" className="img-fluid bg-shape-bottom-3"></img> */}
       <div className="section">
-        <div className="container">
+        <div className="container footer-text">
           <div className="row">
             <div className="col-md-6">
               <h6 className="text-light">Email</h6>

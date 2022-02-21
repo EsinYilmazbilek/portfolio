@@ -6,7 +6,7 @@ import About from './common/About'
 import Skills from './common/Skills'
 import Gallery from './common/Gallery'
 import Design from './common/Design'
-// import Experience from './common/Experience'
+import Background from './common/Background'
 import Footer from './common/Footer'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Gallery />
         <Design />
         <Skills />
-        {/* <Experience /> */}
+        <Background />
       </BrowserRouter><Footer />
     </>
   )
