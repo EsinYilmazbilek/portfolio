@@ -53,6 +53,8 @@
 .logo {
   margin: auto;
   height: 55px;
+  margin-left: 40px;
+  margin-right: 50px;
 }
 
 //* HOME PAGE
@@ -86,20 +88,56 @@
 
 h1 {
   flex-grow: 1;
-  margin: 180px 0 30px 0;
+  margin: 180px 0 25px 0;
   font-family: 'Playfair Display', serif;
   color: white;
   font-size: 90px;
   font-weight: 600;
 }
 
-h3 {
+.role {
+  flex-grow: 1;
+  margin: 0 0 20px 5px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.location {
   flex-grow: 1;
   margin: 0 0 120px 5px;
   font-family: 'Playfair Display', serif;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .role {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .location {
+    font-size: 20px;
+    margin-left: 20px;
+  }
 }
 
 .esin {
@@ -132,6 +170,14 @@ h2 {
   color: black;
   padding: 10px 0 0 50px;
   letter-spacing: 1px;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .font-secondary {
+    font-size: 15px;
+  }
 }
 
 .see-below {
@@ -330,7 +376,7 @@ h5 {
 
 .skills {
   margin-top: 10px;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .skills-title {
@@ -355,23 +401,123 @@ h5 {
 
 //* BACKGROUND
 
-.background-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.background {
+  margin-bottom: 80px;
 }
 
-.background {
+.background-title {
+  margin-top: 10px;
+  color: #41228e;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.background-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .background-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .work {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+.chevron-background {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 35px;
+  filter: invert(16%) sepia(57%) saturate(3106%) hue-rotate(247deg) brightness(88%) contrast(103%);
+}
+
+.background-each-title {
+  margin-top: 0px;
+  color: #41228e;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.year {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .year {
+    font-size: 15px;
+  }
+}
+
+.background-each {
+  margin-bottom: 10px;
+  margin-top:10px;
+  font-size: 20px;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .background-each {
+    font-size: 15px;
+  }
+}
+
+.what-else {
   position: relative;
   z-index: 1;
 }
 
-.bg-shape-4 {
-  position: absolute;
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .what-else {
+    margin-top: 15px;
+  }
 }
 
+.what-else-text {
+  margin-bottom: 170px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .what-else-text {
+    font-size: 15px;
+  }
+}
+
+.bg-shape-bottom-1 {
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+
+.bg-shape-bottom-2 {
+  position: absolute;
+  right: 100px;
+  top: 250px;
+  margin-bottom: 20px;
+}
 
 //* FOOTER
 
@@ -409,6 +555,14 @@ h6 {
   color: darken($color: white, $amount: 20)
 }
 
+@media only screen 
+and (max-width: 800px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .font-footer {
+    margin-bottom: 40px;
+  }
+}
+
 .icon-linkedin {
   height: 30px;
   margin-right: 20px;
@@ -428,25 +582,6 @@ h6 {
 .icon-git:hover {
   filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(112deg) brightness(88%) contrast(86%);
 }
-
-.bg-shape-bottom-1 {
-  position: absolute;
-  left: 0px;
-  top: 100px;
-  rotate: 90deg;
-}
-
-.bg-shape-bottom-2 {
-  position: absolute;
-  right: 200px;
-  top: 200px;
-}
-
-// .bg-shape-bottom-3 {
-//   position: absolute;
-//   right: 285px;
-//   top: 80px;
-// }
 
 .text-bottom {
   font-size: 10px;

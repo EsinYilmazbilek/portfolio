@@ -35,7 +35,7 @@ function Skills() {
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-lg-12 text-center">
-            <h2 className="skills-title" id="skills">Skills</h2>
+            <h2 className="skills-title">Skills</h2>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={html5} alt="icon" className="icon"/>
@@ -115,7 +115,7 @@ function Skills() {
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={heroku} alt="icon" className="icon"/>
-            <p className="mb-0">heroku</p>
+            <p className="mb-0">Heroku</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={terminal} alt="icon" className="icon"/>

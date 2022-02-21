@@ -9,7 +9,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a href="#" className="navbar-brand"><img src={logo} className="logo" href="#"></img></a>
-          <button className="navbar-toggler align-items-end" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
 
@@ -30,6 +30,9 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#skills">Skills</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#skills">Background</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Connect</a>
