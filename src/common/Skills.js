@@ -1,5 +1,6 @@
 import html5 from '../assets/icons/html5.svg'
 import css3 from '../assets/icons/css3.svg'
+import sass from '../assets/icons/sass.svg'
 import bootstrap from '../assets/icons/bootstrap.svg'
 import bulma from '../assets/icons/bulma.svg'
 import mui from '../assets/icons/mui.svg'
@@ -10,6 +11,7 @@ import expressjs from '../assets/icons/expressjs.svg'
 import nodejs from '../assets/icons/nodejs.svg'
 import python from '../assets/icons/python.svg'
 import django from '../assets/icons/django.svg'
+import postgresql from '../assets/icons/postgresql.svg'
 import npm from '../assets/icons/npm.svg'
 import git from '../assets/icons/git.svg'
 import github from '../assets/icons/github.svg'
@@ -44,6 +46,10 @@ function Skills() {
           <div className="col-lg-2 col-md-4 text-center">
             <img src={css3} alt="icon" className="icon"/>
             <p className="mb-0">CSS3</p>
+          </div>
+          <div className="col-lg-2 col-md-4 text-center">
+            <img src={sass} alt="icon" className="icon"/>
+            <p className="mb-0">SASS</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={bootstrap} alt="icon" className="icon"/>
@@ -84,6 +90,10 @@ function Skills() {
           <div className="col-lg-2 col-md-4 text-center">
             <img src={django} alt="icon" className="icon"/>
             <p className="mb-0">Django</p>
+          </div>
+          <div className="col-lg-2 col-md-4 text-center">
+            <img src={postgresql} alt="icon" className="icon"/>
+            <p className="mb-0">PostgreSQL</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={npm} alt="icon" className="icon"/>

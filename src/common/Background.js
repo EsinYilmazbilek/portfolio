@@ -10,7 +10,7 @@ function Background() {
         <div className="row justify-content-around">
           <div className="col-lg-12 text-center">
             <h2 className="background-title">Background</h2>
-            <p className="background-text paragraph-lg">A little bit on my background below and more on Linkedin.</p>
+            <p className="background-text paragraph-lg">A little bit on my background below and more on <a href="https://www.linkedin.com/in/esin-yilmazbilek/" target="blank" className="linke">Linkedin</a>.</p>
             <a href="#experience"><img src={chevron} className="chevron-background" /></a>
           </div>
           <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>

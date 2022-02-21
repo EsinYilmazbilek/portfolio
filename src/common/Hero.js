@@ -9,7 +9,6 @@ function Hero() {
       <div className="container-title">
         <h1>esin yilmazbilek</h1>
         <h3 className="role">Junior Full Stack Engineer &#38; Designer</h3>
-        <h3 className="location">Margate/London</h3>
       </div>
     </div>
   )

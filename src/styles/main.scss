@@ -104,15 +104,6 @@ h1 {
   font-weight: 400;
 }
 
-.location {
-  flex-grow: 1;
-  margin: 0 0 120px 5px;
-  font-family: 'Playfair Display', serif;
-  color: white;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 @media only screen 
 and (max-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -126,15 +117,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (max-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2) {
   .role {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-}
-
-@media only screen 
-and (max-width: 800px)
-and (-webkit-min-device-pixel-ratio: 2) {
-  .location {
     font-size: 20px;
     margin-left: 20px;
   }
@@ -417,6 +399,16 @@ h5 {
 .background-text {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+}
+
+.linke {
+  text-decoration: none;
+  color: black;
+}
+
+.linke:hover {
+  color: darken($color: white, $amount: 80);
+  cursor: pointer;
 }
 
 @media only screen 
