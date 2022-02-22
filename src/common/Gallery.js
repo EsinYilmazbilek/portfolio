@@ -36,7 +36,7 @@ function Gallery() {
                 <div className="hover-content">
                   <a className="btn btn-light btn-sm">
                     <b className="hover-title">Clever Nightingale</b>
-                    <p className="hover-text">An online english dictionary. A front end only app built with HTML, CSS (Bulma), JavaScript, React and a 3rd party API.</p>
+                    <p className="hover-text">An online English dictionary. A front end only app built with HTML, CSS (Bulma), JavaScript, React and a 3rd party API.</p>
                     <a href="https://github.com/EsinYilmazbilek/SEI-project-two" target="blank" className="btn btn-xs">On GitHub</a>
                     <a href="https://clever-nightingale.netlify.app/" target="blank" className="btn btn-xs">On Web</a>
                   </a>
