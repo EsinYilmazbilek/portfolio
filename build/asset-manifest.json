@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.af480da8.chunk.css",
-    "main.js": "/static/js/main.28bb699f.chunk.js",
-    "main.js.map": "/static/js/main.28bb699f.chunk.js.map",
+    "main.css": "/static/css/main.de740b37.chunk.css",
+    "main.js": "/static/js/main.163dbe16.chunk.js",
+    "main.js.map": "/static/js/main.163dbe16.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71e459e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.71e459e0.js.map",
     "static/js/2.4a057313.chunk.js": "/static/js/2.4a057313.chunk.js",
     "static/js/2.4a057313.chunk.js.map": "/static/js/2.4a057313.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.af480da8.chunk.css.map": "/static/css/main.af480da8.chunk.css.map",
+    "static/css/main.de740b37.chunk.css.map": "/static/css/main.de740b37.chunk.css.map",
     "static/js/2.4a057313.chunk.js.LICENSE.txt": "/static/js/2.4a057313.chunk.js.LICENSE.txt",
     "static/media/bootstrap.873ec08f.svg": "/static/media/bootstrap.873ec08f.svg",
     "static/media/bulma.293028a6.svg": "/static/media/bulma.293028a6.svg",
@@ -25,6 +25,7 @@
     "static/media/git.fd264f89.svg": "/static/media/git.fd264f89.svg",
     "static/media/github.9ca7afbb.svg": "/static/media/github.9ca7afbb.svg",
     "static/media/github1.04be58c1.svg": "/static/media/github1.04be58c1.svg",
+    "static/media/gitlab.8473f992.svg": "/static/media/gitlab.8473f992.svg",
     "static/media/honey.b2b23c78.png": "/static/media/honey.b2b23c78.png",
     "static/media/html5.883ece7c.svg": "/static/media/html5.883ece7c.svg",
     "static/media/illustrator.8682f75d.svg": "/static/media/illustrator.8682f75d.svg",
@@ -38,6 +39,7 @@
     "static/media/netlify.94cc8d01.svg": "/static/media/netlify.94cc8d01.svg",
     "static/media/nodejs.37b2facd.svg": "/static/media/nodejs.37b2facd.svg",
     "static/media/npm.efe2f5d0.svg": "/static/media/npm.efe2f5d0.svg",
+    "static/media/nuxt.1d61673c.svg": "/static/media/nuxt.1d61673c.svg",
     "static/media/photoshop.61297029.svg": "/static/media/photoshop.61297029.svg",
     "static/media/postgresql.3a10ee07.svg": "/static/media/postgresql.3a10ee07.svg",
     "static/media/python.22057ff0.svg": "/static/media/python.22057ff0.svg",
@@ -46,6 +48,7 @@
     "static/media/si.27972303.png": "/static/media/si.27972303.png",
     "static/media/slack.9a2d6e2f.svg": "/static/media/slack.9a2d6e2f.svg",
     "static/media/sniff.7f49a36a.png": "/static/media/sniff.7f49a36a.png",
+    "static/media/tailwind.b54c250e.svg": "/static/media/tailwind.b54c250e.svg",
     "static/media/terminal.b75e6d87.svg": "/static/media/terminal.b75e6d87.svg",
     "static/media/trello.a70b3d21.svg": "/static/media/trello.a70b3d21.svg",
     "static/media/vscode.e66e0893.svg": "/static/media/vscode.e66e0893.svg",
@@ -55,7 +58,7 @@
   "entrypoints": [
     "static/js/runtime-main.71e459e0.js",
     "static/js/2.4a057313.chunk.js",
-    "static/css/main.af480da8.chunk.css",
-    "static/js/main.28bb699f.chunk.js"
+    "static/css/main.de740b37.chunk.css",
+    "static/js/main.163dbe16.chunk.js"
   ]
 }

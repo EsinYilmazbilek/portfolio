@@ -11,6 +11,7 @@ function Background() {
           <div className="col-lg-12 text-center">
             <h2 className="background-title">Background</h2>
             <p className="background-text paragraph-lg"><a href="https://www.linkedin.com/in/esin-yilmazbilek/" target="blank" className="linke">A little bit on my background below and more on Linkedin.</a></p>
+            <p className="background-text paragraph-lg"><a href="https://drive.google.com/file/d/175qubvVsv6RgK3yMkKlF79NBTBFXbe3c/view?usp=sharing" target="blank" className="linke">Click here for my full CV.</a></p>
             <a href="#experience"><img src={chevron} className="chevron-background" /></a>
           </div>
           <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>
