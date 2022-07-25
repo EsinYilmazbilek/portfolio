@@ -1,8 +1,10 @@
 import html5 from '../assets/icons/html5.svg'
 import css3 from '../assets/icons/css3.svg'
 import sass from '../assets/icons/sass.svg'
-import bootstrap from '../assets/icons/bootstrap.svg'
 import bulma from '../assets/icons/bulma.svg'
+import bootstrap from '../assets/icons/bootstrap.svg'
+import tailwind from '../assets/icons/tailwind.svg'
+import nuxt from '../assets/icons/nuxt.svg'
 import mui from '../assets/icons/mui.svg'
 import javascript from '../assets/icons/javascript.svg'
 import reactnative from '../assets/icons/reactnative.svg'
@@ -15,6 +17,7 @@ import postgresql from '../assets/icons/postgresql.svg'
 import npm from '../assets/icons/npm.svg'
 import git from '../assets/icons/git.svg'
 import github from '../assets/icons/github.svg'
+import gitlab from '../assets/icons/gitlab.svg'
 import insomnia from '../assets/icons/insomnia.svg'
 import tableplus from '../assets/icons/tableplus.png'
 import vscode from '../assets/icons/vscode.svg'
@@ -28,12 +31,12 @@ import illustrator from '../assets/icons/illustrator.svg'
 import xd from '../assets/icons/xd.svg'
 import trello from '../assets/icons/trello.svg'
 import slack from '../assets/icons/slack.svg'
-import dots from '../assets/dots.png'
+// import dots from '../assets/dots.png'
 
 function Skills() {
   return (
     <section className="section skills" id="skills">
-      <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>
+      {/* <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img> */}
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-lg-12 text-center">
@@ -52,20 +55,28 @@ function Skills() {
             <p className="mb-0">SASS</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
-            <img src={bootstrap} alt="icon" className="icon"/>
-            <p className="mb-0">Bootstrap</p>
+            <img src={mui} alt="icon" className="icon"/>
+            <p className="mb-0">Material UI</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={bulma} alt="icon" className="icon"/>
             <p className="mb-0">Bulma</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
-            <img src={mui} alt="icon" className="icon"/>
-            <p className="mb-0">Material UI</p>
+            <img src={bootstrap} alt="icon" className="icon"/>
+            <p className="mb-0">Bootstrap</p>
+          </div>
+          <div className="col-lg-2 col-md-4 text-center">
+            <img src={tailwind} alt="icon" className="icon colour-icon"/>
+            <p className="mb-0">Tailwind</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={javascript} alt="icon" className="icon"/>
             <p className="mb-0">JavaScript</p>
+          </div>
+          <div className="col-lg-2 col-md-4 text-center">
+            <img src={nuxt} alt="icon" className="icon colour-icon"/>
+            <p className="mb-0">Nuxt</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={reactnative} alt="icon" className="icon"/>
@@ -106,6 +117,10 @@ function Skills() {
           <div className="col-lg-2 col-md-4 text-center">
             <img src={github} alt="icon" className="icon"/>
             <p className="mb-0">GitHub</p>
+          </div>
+          <div className="col-lg-2 col-md-4 text-center">
+            <img src={gitlab} alt="icon" className="icon colour-icon"/>
+            <p className="mb-0">GitLab</p>
           </div>
           <div className="col-lg-2 col-md-4 text-center">
             <img src={insomnia} alt="icon" className="icon"/>

@@ -129,6 +129,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .bg-shape-3 {
   position: absolute;
+  z-index: 1;
 }
 
 .container-about {
@@ -356,6 +357,11 @@ h5 {
 
 //* SKILLS
 
+// .bottom-layer-1 {
+//   position:absolute;
+//   z-index: auto;
+// }
+
 .skills {
   margin-top: 10px;
   margin-bottom: 80px;
@@ -372,6 +378,10 @@ h5 {
 .icon {
   height: 30px;
   margin-top: 30px;
+}
+
+.colour-icon {
+  filter: invert(11%) sepia(77%) saturate(5629%) hue-rotate(275deg) brightness(68%) contrast(115%);
 }
 
 .mb-0 {
@@ -399,11 +409,14 @@ h5 {
 .background-text {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
+  position: relative;
+  z-index: 6;
 }
 
 .linke {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .linke:hover {
