@@ -8,16 +8,19 @@ import Gallery from './common/Gallery'
 import Design from './common/Design'
 import Background from './common/Background'
 import Footer from './common/Footer'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <Hero />
+        <ParallaxProvider>
+          <Hero />
+        </ParallaxProvider>
         <About />
         <Gallery />
-        
+
         <Design />
         <Skills />
         <Background />

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e4ae97e.chunk.css",
-    "main.js": "/static/js/main.1cf3d13f.chunk.js",
-    "main.js.map": "/static/js/main.1cf3d13f.chunk.js.map",
+    "main.css": "/static/css/main.200f5a84.chunk.css",
+    "main.js": "/static/js/main.df957424.chunk.js",
+    "main.js.map": "/static/js/main.df957424.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71e459e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.71e459e0.js.map",
     "static/js/2.4a057313.chunk.js": "/static/js/2.4a057313.chunk.js",
     "static/js/2.4a057313.chunk.js.map": "/static/js/2.4a057313.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3e4ae97e.chunk.css.map": "/static/css/main.3e4ae97e.chunk.css.map",
+    "static/css/main.200f5a84.chunk.css.map": "/static/css/main.200f5a84.chunk.css.map",
     "static/js/2.4a057313.chunk.js.LICENSE.txt": "/static/js/2.4a057313.chunk.js.LICENSE.txt",
     "static/media/bootstrap.873ec08f.svg": "/static/media/bootstrap.873ec08f.svg",
     "static/media/bulma.293028a6.svg": "/static/media/bulma.293028a6.svg",
@@ -34,6 +34,7 @@
     "static/media/javascript.2fe9cd05.svg": "/static/media/javascript.2fe9cd05.svg",
     "static/media/linkedin.86f40c0c.svg": "/static/media/linkedin.86f40c0c.svg",
     "static/media/logo.d1dd73e8.png": "/static/media/logo.d1dd73e8.png",
+    "static/media/mimas.0dcdce77.png": "/static/media/mimas.0dcdce77.png",
     "static/media/mongodb.155a51ea.svg": "/static/media/mongodb.155a51ea.svg",
     "static/media/mui.ae7f87bb.svg": "/static/media/mui.ae7f87bb.svg",
     "static/media/netlify.94cc8d01.svg": "/static/media/netlify.94cc8d01.svg",
@@ -53,12 +54,13 @@
     "static/media/trello.a70b3d21.svg": "/static/media/trello.a70b3d21.svg",
     "static/media/vscode.e66e0893.svg": "/static/media/vscode.e66e0893.svg",
     "static/media/wordpress.56db0974.svg": "/static/media/wordpress.56db0974.svg",
-    "static/media/xd.8c84e2fe.svg": "/static/media/xd.8c84e2fe.svg"
+    "static/media/xd.8c84e2fe.svg": "/static/media/xd.8c84e2fe.svg",
+    "static/media/yip.0081e9b8.png": "/static/media/yip.0081e9b8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.71e459e0.js",
     "static/js/2.4a057313.chunk.js",
-    "static/css/main.3e4ae97e.chunk.css",
-    "static/js/main.1cf3d13f.chunk.js"
+    "static/css/main.200f5a84.chunk.css",
+    "static/js/main.df957424.chunk.js"
   ]
 }
