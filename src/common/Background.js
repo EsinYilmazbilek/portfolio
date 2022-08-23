@@ -11,7 +11,7 @@ function Background() {
           <div className="col-lg-12 text-center">
             <h2 className="background-title">Background</h2>
             <p className="background-text paragraph-lg"><a href="https://www.linkedin.com/in/esin-yilmazbilek/" target="blank" className="linke">A little bit on my background below and more on Linkedin.</a></p>
-            <p className="background-text paragraph-lg"><a href="https://drive.google.com/file/d/175qubvVsv6RgK3yMkKlF79NBTBFXbe3c/view?usp=sharing" target="blank" className="linke">Click here for my full CV.</a></p>
+            <p className="background-text paragraph-lg"><a href="https://drive.google.com/file/d/1RfjIpfUl9hOTJ6GP0sSpWMNJkVAqAJJ_/view?usp=sharing" target="blank" className="linke">Click <span className="here">here</span> for my full CV.</a></p>
             <a href="#experience"><img src={chevron} className="chevron-background" /></a>
           </div>
           <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>
@@ -51,6 +51,11 @@ function Background() {
             <p className="year">2022</p>
             <h5 className="background-each">Software Engineering</h5>
             <p className="education">General Assembly, London</p>
+          </div>
+          <div className="col-lg-3 col-md-4 text-center">
+            <p className="year">2020</p>
+            <h5 className="background-each">UX/UI Design</h5>
+            <p className="education">Udemy</p>
           </div>
           <div className="col-lg-3 col-md-4 text-center">
             <p className="year">2013</p>

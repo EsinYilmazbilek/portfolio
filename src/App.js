@@ -17,6 +17,7 @@ function App() {
         <Hero />
         <About />
         <Gallery />
+        
         <Design />
         <Skills />
         <Background />
