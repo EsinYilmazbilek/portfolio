@@ -9,9 +9,9 @@ function Hero() {
       <img src={dotsGroupV} alt="bg-shape" className="img-fluid bg-shape-2"></img>
       <Parallax speed={-10}>
         <div className="container-title">
-          
+
           <h1>esin yilmazbilek</h1>
-          <h3 className="role">Frontend Engineer &#38; Web Designer</h3>
+          <h3 className="role">Frontend Developer &#38; Designer</h3>
         </div>
       </Parallax>
     </div>
