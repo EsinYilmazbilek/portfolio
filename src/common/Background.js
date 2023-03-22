@@ -11,7 +11,7 @@ function Background() {
           <div className="col-lg-12 text-center">
             <h2 className="background-title">Background</h2>
             <p className="background-text paragraph-lg"><a href="https://www.linkedin.com/in/esin-yilmazbilek/" target="blank" className="linke">A little bit on my background below and more on Linkedin.</a></p>
-            <p className="background-text paragraph-lg"><a href="https://drive.google.com/file/d/1RfjIpfUl9hOTJ6GP0sSpWMNJkVAqAJJ_/view?usp=sharing" target="blank" className="linke">Click <span className="here">here</span> for my full CV.</a></p>
+            <p className="background-text paragraph-lg"><a href="https://docs.google.com/document/d/1lZj7R_Dr5N659GBaFIIdb6TM2Ztvgap3JJhRRL0LWys/edit?usp=sharing" target="blank" className="linke">Click <span className="here">here</span> for my full CV.</a></p>
             <a href="#experience"><img src={chevron} className="chevron-background" /></a>
           </div>
           <img src={dots} alt="bg-shape" className="img-fluid bg-shape-3"></img>
@@ -34,13 +34,8 @@ function Background() {
             <p className="work">Studio Bark, London</p>
           </div>
           <div className="col-lg-3 col-md-4 text-center">
-            <p className="year">May 2018 - Aug 2018</p>
-            <h5 className="background-each">Freelance Visual Designer &#38; Comms Officer</h5>
-            <p className="work">Pivaz Restaurants, London</p>
-          </div>
-          <div className="col-lg-3 col-md-4 text-center">
             <p className="year">Sep 2016 - Oct 2017</p>
-            <h5 className="background-each">Freelance Visual Designer &#38; Comms Officer</h5>
+            <h5 className="background-each">Freelance Comms Manager</h5>
             <p className="work">Mizzi Studio, London</p>
           </div>
 
@@ -72,7 +67,7 @@ function Background() {
           <img src={dotsOrange} alt="bg-shape" className="img-fluid bg-shape-bottom-1"></img>
           <img src={dotsGroupCyan} alt="bg-shape" className="img-fluid bg-shape-bottom-2"></img>
           <h2 className="background-each-title">What else?</h2>
-          <p className="what-else-text paragraph-lg">When I am not looking at code, I like to get hands on with making jams, doing pottery, and keeping up to date with science, well-being, and technology. I also like to travel, now more than ever. Next stop: Morocco. Currently reading: Consumed by Aja Barber.</p>
+          <p className="what-else-text paragraph-lg">When I am not looking at code, I like to get hands on with making jams, doing pottery, and keeping up to date with science, well-being, and technology. I also like to travel, now more than ever. Next stop: Tasmania. Currently reading: Venus on the Half Shell by Kilgore Trout.</p>
         </div>
 
 
